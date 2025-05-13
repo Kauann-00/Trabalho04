@@ -17,12 +17,10 @@ public class PotenciaManual {
         double resultado = 1.0;
         int expoenteAbsoluto = Math.abs(expoente);
         
-        // Calcula a potência com um loop
         for (int i = 0; i < expoenteAbsoluto; i++) {
             resultado *= base;
         }
         
-        // Se o expoente for negativo, calcula o inverso
         if (expoente < 0) {
             resultado = 1.0 / resultado;
         }
